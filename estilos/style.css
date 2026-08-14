@@ -57,6 +57,20 @@ div#formulario > p {
     font-size: 0.9em;
 }
 
+span {
+    color: white;
+    font-size: 2em;
+   
+}
+
+div.campo > input {
+font-size: 1em;
+width: 80%;
+height: 70%;
+border-radius: 5px;
+}
+
+
 .campo {
 background-color: rgb(224, 160, 40);
 margin: 5px 0px;
