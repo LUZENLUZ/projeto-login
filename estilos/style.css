@@ -27,8 +27,8 @@ transform: translate(-50%, -50%);
 overflow: hidden;
 
     background-color: white;
-        width: 200px;
-        height: 400px;
+        width: 300px;
+        height: 450px;
         border-radius: 20px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
         transition: width .3s, height .3s;
@@ -56,3 +56,53 @@ div#formulario > p {
 
     font-size: 0.9em;
 }
+
+.campo {
+background-color: rgb(224, 160, 40);
+margin: 5px 0px;
+border-radius: 5px;
+height: 40px;
+display: block;
+}
+
+
+
+#entrar {
+     display: block;
+    font-size: 1em;
+    width: 99%;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#entrar:hover {
+    background-color: rgb(61, 60, 60);
+
+}
+
+#botao {
+ background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 35px;
+    width: 99%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0px;
+}
+ 
+
+#botao:hover{
+    background-color: rgb(66, 65, 65);
+}
+
+
+
+
