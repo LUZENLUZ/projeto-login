@@ -29,18 +29,23 @@ section#login > div#formulario {
     background-image: linear-gradient(to top, red, rgba(230, 151, 6, 0.63));
 }
     
-    section#login {width: 990px; }
+    section#login {width: 950px; }
 
     section#login > div#imagem {
-                        float: left;
-                        width: 50%;
+                        float: right;
+                        width: 45%;
                         height: 100%;
     }
 
-    section#login > div#formualrio {
-                            float: right;
+    section#login > div#formulario {
+                            float: left;
                             width: 50%;
     }
+    div#formulario > h1 {
+        font-size: 3em;
+    }
 }
+
+
 
 
